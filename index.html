@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            color: #fff;
+        }
+
+        header {
+            height: 60px;
+            line-height: 60px;
+            text-align: center;
+            background-color: darkolivegreen;
+        }
+
+        nav {
+            height: 35px;
+            line-height: 35px;
+            text-align: center;
+            background-color: firebrick;
+        }
+
+        section {
+            display: flex;
+            height: 350px;
+            background-color: #ececec;
+        }
+
+        aside {
+            flex: 1;
+            height: 100%;
+            background-color: brown;
+        }
+
+        article {
+            flex: 2;
+            height: 100%;
+            background-color: cornflowerblue;
+        }
+
+        footer {
+            height: 300px;
+            background-color: lightsalmon;
+        }
+    </style>
+</head>
+
+<body>
+    <header>header</header>
+    <nav>nav</nav>
+    <section>
+        <aside>aside</aside>
+        <article>article</article>
+    </section>
+    <section>section</section>
+    <section>
+        <article>article</article>
+        <aside>aside</aside>
+    </section>
+    <section>section</section>
+    <footer>footer</footer>
+</body>
+
+</html>
